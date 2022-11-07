@@ -23,7 +23,7 @@ def isParetoImprovement(agents: List[Agent], option1: int, option2: int) -> bool
     :param agents: A list of agents
     :param option1: One option
     :param option2: Second option
-    :return: Whether option 1 is a Pareto improvement of option 2
+    :return: Returns True if option 1 is a Pareto improvement of option 2, else - return False
 
     >>> isParetoImprovement(agents=agents, option1=1, option2=2)
     False
@@ -47,7 +47,7 @@ def isParetoOptimal(agents: List[Agent], option: int, allOptions: List[int]) -> 
     :param agents: A list of agents
     :param option: A given option
     :param allOptions: A list of all options
-    :return: Whether a given option is Pareto optimal
+    :return: Returns True if a given option is Pareto optimal, else - return False
 
     >>> isParetoOptimal(agents=agents, option=1, allOptions=all_options)
     True
